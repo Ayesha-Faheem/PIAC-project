@@ -1,0 +1,78 @@
+age=12
+if age== 10:
+    print('hii')
+elif age== 11:
+    print('hello')
+elif age== 12:
+    print('u r good')
+elif age== 13:
+    print('how r u')
+else:
+    print('hehehe')
+    
+
+
+age= 10
+if age ==10 or age==11 or age == 12 or age == 13:
+    print("you can do this")
+else:
+    print('huh')
+
+age = 14
+if age>=10 and age<=15:
+    print('you are allegible')
+else:
+    print('huh')
+
+age = 16
+if age>=10 and age<=15:
+    print('you are allegible')
+else:
+    print('huh')
+
+name= 'ayesha'
+if name== 'ayesha':
+    print("you are allowed")
+elif name== 'fatima' :
+    print('you are not allowed')
+else:
+    print('you r not part of family')
+
+
+age= "16"
+converted_age= int(age)
+if converted_age== 16:
+    print('you r allowed')
+else:
+    print('you r not allowed')
+
+for x in range(0,6):
+    print('salam')
+
+for x in range(0,6):
+    print('salam%s' %x)  
+
+print(list(range(10,20)))
+
+
+list= ['ayesha','fatima','umaima', 'world']
+for a in list:
+    print(a)
+
+list= ['ayesha','fatima','umaima']
+for x in list:
+    print(x)
+    print(x)
+
+list= ['ayesha','fatima','umaima']
+for x in list:
+    print(x)
+    for i in list:
+        print(i)
+
+x= 45
+y= 80
+while x< 50 and y<100:
+    x= x+1
+    y= y+1
+    print(x,y)
