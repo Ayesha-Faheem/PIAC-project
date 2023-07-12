@@ -1,0 +1,1 @@
+console.log("Quaid-e-Azam once said,\"Work work work and you are bound to success.\"" );
